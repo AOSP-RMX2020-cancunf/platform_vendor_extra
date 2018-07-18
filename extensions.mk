@@ -10,6 +10,7 @@ $(call inherit-product, vendor/lawnchair/lawnchair.mk)
 PRODUCT_PACKAGES += \
 	Camera \
 	ThemePicker \
+	AOSPDialerExtensions \
 	AOSPKeyboardExtensions \
 	FrameworkExtensions \
 	SystemUIExtensions
