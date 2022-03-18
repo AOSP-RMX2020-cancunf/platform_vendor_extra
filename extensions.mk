@@ -5,4 +5,5 @@
 
 # Build support for extras
 PRODUCT_PACKAGES += \
-	Chromium
+	Chromium \
+	ThemePicker
