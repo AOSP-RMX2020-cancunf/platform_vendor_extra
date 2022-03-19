@@ -1,10 +1,5 @@
 <fonts-modification version="1">
   <family customizationType="new-named-family" name="inter">
-    <font weight="100" style="normal">Inter-Regular.ttf
-      <axis tag="GRAD" stylevalue="0"/>
-      <axis tag="opsz" stylevalue="18.0"/>
-      <axis tag="wght" stylevalue="100"/>
-    </font>
     <font weight="200" style="normal">Inter-Regular.ttf
       <axis tag="GRAD" stylevalue="0"/>
       <axis tag="opsz" stylevalue="18.0"/>
