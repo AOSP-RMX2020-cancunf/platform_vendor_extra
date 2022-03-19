@@ -7,7 +7,8 @@
 PRODUCT_PACKAGES += \
 	Chromium \
 	ThemePicker \
-	FrameworkExtensions
+	FrameworkExtensions \
+	SystemUIExtensions
 
 # Font
 include vendor/extensions/fonts/fonts.mk
