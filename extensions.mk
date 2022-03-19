@@ -6,4 +6,5 @@
 # Build support for extras
 PRODUCT_PACKAGES += \
 	Chromium \
-	ThemePicker
+	ThemePicker \
+	FrameworkExtensions
