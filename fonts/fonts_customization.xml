@@ -65,22 +65,22 @@
   </family>
 
   <family customizationType="new-named-family" name="inter-text">
-    <font weight="200" style="normal">Inter-Thin.ttf
+    <font weight="200" style="normal">Inter-Regular.ttf
       <axis tag="GRAD" stylevalue="0"/>
       <axis tag="opsz" stylevalue="17.0"/>
       <axis tag="wght" stylevalue="200"/>
     </font>
-    <font weight="300" style="normal">Inter-Thin.ttf
+    <font weight="300" style="normal">Inter-Regular.ttf
       <axis tag="GRAD" stylevalue="0"/>
       <axis tag="opsz" stylevalue="17.0"/>
       <axis tag="wght" stylevalue="300"/>
     </font>
-    <font weight="400" style="normal">Inter-Thin.ttf
+    <font weight="400" style="normal">Inter-Regular.ttf
       <axis tag="GRAD" stylevalue="0"/>
       <axis tag="opsz" stylevalue="17.0"/>
       <axis tag="wght" stylevalue="400"/>
     </font>
-    <font weight="500" style="normal">Inter-Thin.ttf
+    <font weight="500" style="normal">Inter-Regular.ttf
       <axis tag="GRAD" stylevalue="0"/>
       <axis tag="opsz" stylevalue="17.0"/>
       <axis tag="wght" stylevalue="500"/>
@@ -122,7 +122,7 @@
   </family>
 
   <family customizationType="new-named-family" name="inter-text-italic">
-    <font weight="200" style="italic">Inter-Thin.ttf
+    <font weight="200" style="italic">Inter-Regular.ttf
       <axis tag="GRAD" stylevalue="0"/>
       <axis tag="opsz" stylevalue="17.0"/>
       <axis tag="wght" stylevalue="200"/>
