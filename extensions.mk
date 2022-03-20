@@ -5,6 +5,7 @@
 
 # Build support for extras
 PRODUCT_PACKAGES += \
+	Camera \
 	Chromium \
 	ThemePicker \
 	FrameworkExtensions \
