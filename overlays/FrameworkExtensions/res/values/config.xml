@@ -20,4 +20,12 @@
             2 - Global actions menu
     -->
     <integer name="config_keyChordPowerVolumeUp">1</integer>
+
+    <!-- Name of a font family to use for body text. -->
+    <string name="config_bodyFontFamily">inter-text</string>
+    <string name="config_bodyFontFamilyMedium">inter-text-medium</string>
+
+    <!-- Name of a font family to use for headlines. If empty, falls back to platform default -->
+    <string name="config_headlineFontFamily">inter</string>
+    <string name="config_headlineFontFamilyMedium">inter-medium</string>
 </resources>
