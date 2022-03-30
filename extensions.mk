@@ -8,6 +8,7 @@ PRODUCT_PACKAGES += \
 	Camera \
 	Chromium \
 	ThemePicker \
+	AOSPKeyboardExtensions \
 	FrameworkExtensions \
 	SystemUIExtensions
 
