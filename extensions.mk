@@ -16,5 +16,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
 	SystemUI
 
+# Flags
+ifeq ($(TARGET_BUILD_VARIANT), user)
+	PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+endif
+
 # Font
 include vendor/extensions/fonts/fonts.mk
