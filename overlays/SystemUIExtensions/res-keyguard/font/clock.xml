@@ -6,6 +6,6 @@
 
 <font-family xmlns:android="http://schemas.android.com/apk/res/android">
     <font>
-        <item name="android:font">inter</item>
+        <font android:font="@font/inter_clock"/>
     </font>
 </font-family>
