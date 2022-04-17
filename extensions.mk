@@ -26,3 +26,7 @@ endif
 
 # Font
 include vendor/extensions/fonts/fonts.mk
+
+# Keyguard animation
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.wm.enable_remote_keyguard_animation=0
