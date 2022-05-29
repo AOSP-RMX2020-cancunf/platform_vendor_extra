@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2021 The Android Open Source Project
+    Copyright (C) 2022 Vaisakh Murali
+-->
+
+<resources>
+    <!-- Show mic or phone affordance on Keyguard -->
+    <bool name="config_keyguardShowLeftAffordance">true</bool>
+
+    <!-- Show camera affordance on Keyguard -->
+    <bool name="config_keyguardShowCameraAffordance">true</bool>
+</resources>
