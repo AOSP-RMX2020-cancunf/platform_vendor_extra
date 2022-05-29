@@ -10,4 +10,10 @@
 
     <!-- Show camera affordance on Keyguard -->
     <bool name="config_keyguardShowCameraAffordance">true</bool>
+
+    <!-- The duraction of the show animation for the volume dialog in milliseconds -->
+    <integer name="config_dialogShowAnimationDurationMs">150</integer>
+
+    <!-- The duraction of the hide animation for the volume dialog in milliseconds -->
+    <integer name="config_dialogHideAnimationDurationMs">150</integer>
 </resources>
