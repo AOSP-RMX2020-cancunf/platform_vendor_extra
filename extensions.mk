@@ -3,9 +3,6 @@
 # SPDX-License-Identifer: Apache-2.0
 #
 
-$(call inherit-product, vendor/bromite/bromite.mk)
-$(call inherit-product, vendor/lawnchair/lawnchair.mk)
-
 # Build support for extras
 PRODUCT_PACKAGES += \
 	Camera \
