@@ -4,9 +4,13 @@
 # SPDX-License-Identifer: Apache-2.0
 #
 
-# Build support for extras
+# App
 PRODUCT_PACKAGES += \
 	ThemePicker \
+	messaging
+
+# Overlays
+PRODUCT_PACKAGES += \
 	AOSPDialerExtensions \
 	AOSPKeyboardExtensions \
 	FrameworkExtensions \
