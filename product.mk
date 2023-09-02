@@ -9,13 +9,6 @@ PRODUCT_PACKAGES += \
 	ThemePicker \
 	messaging
 
-# Overlays
-PRODUCT_PACKAGES += \
-	AOSPDialerExtensions \
-	AOSPKeyboardExtensions \
-	FrameworkExtensions \
-	SystemUIExtensions
-
 # Preopt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += \
 	SystemUI

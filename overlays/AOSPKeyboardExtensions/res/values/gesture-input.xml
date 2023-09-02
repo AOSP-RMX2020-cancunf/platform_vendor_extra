@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-  Copyright (C) 2012 The Android Open Source Project
-  Copyright (C) 2022 Vaisakh Murali
--->
-<resources>
-    <bool name="config_gesture_input_enabled_by_build_config">true</bool>
-</resources>
