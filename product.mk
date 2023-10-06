@@ -16,6 +16,11 @@ ifneq ($(WITH_GMS), true)
 	messaging
 endif
 
+# Overlays
+PRODUCT_PACKAGES += \
+	FrameworkExtensions \
+	SystemUIExtensions
+
 # Preopt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += \
 	SystemUI
