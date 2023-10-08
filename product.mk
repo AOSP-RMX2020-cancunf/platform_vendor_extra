@@ -16,6 +16,9 @@ ifneq ($(WITH_GMS), true)
 	messaging
 endif
 
+# Bootanimation
+include vendor/extra/bootanimation/bootanimation.mk
+
 # Overlays
 PRODUCT_PACKAGES += \
 	FrameworkExtensions \
