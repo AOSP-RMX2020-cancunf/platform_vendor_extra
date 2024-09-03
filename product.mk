@@ -28,6 +28,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
 	SystemUI
 
+# SystemUI Clocks
+$(call inherit-product-if-exists, vendor/SystemUIClocks/product.mk)
+
 # Enable whole-program R8 Java optimizations for SystemUI and system_server,
 # but also allow explicit overriding for testing and development.
 SYSTEM_OPTIMIZE_JAVA ?= true
