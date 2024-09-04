@@ -9,6 +9,10 @@ ifeq ($(WITH_GMS), true)
     $(call inherit-product-if-exists, vendor/gms/products/gms.mk)
 endif
 
+# APN
+PRODUCT_COPY_FILES += \
+    vendor/extra/apn/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
+
 # App
 ifneq ($(WITH_GMS), true)
     PRODUCT_PACKAGES += \
