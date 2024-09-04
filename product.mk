@@ -14,9 +14,11 @@ PRODUCT_COPY_FILES += \
     vendor/extra/apn/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
 
 # App
+PRODUCT_PACKAGES += \
+    ThemePicker
+
 ifneq ($(WITH_GMS), true)
     PRODUCT_PACKAGES += \
-	ThemePicker \
 	messaging
 endif
 
