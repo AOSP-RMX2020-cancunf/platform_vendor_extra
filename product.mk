@@ -28,6 +28,7 @@ include vendor/extra/bootanimation/bootanimation.mk
 # Overlays
 PRODUCT_PACKAGES += \
 	FrameworkExtensions \
+	GoogleSettingsOverlay \
 	SystemUIExtensions
 
 # Preopt SystemUI
